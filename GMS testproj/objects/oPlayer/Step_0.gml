@@ -11,7 +11,7 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 {
 	nextToDoor = false;
 	rightLeftMove *= moveTile;
-	if(!place_meeting(x + rightLeftMove, y, oParentSolid))
+	if(!place_meeting(x + rightLeftMove, y, oParentDoor))
 	{
 		x += rightLeftMove;
 	};
@@ -21,7 +21,7 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 	}
 	
 	upDownMove *= moveTile;
-	if(!place_meeting(x , y + upDownMove, oParentSolid))
+	if(!place_meeting(x , y + upDownMove, oParentDoor))
 	{
 		y += upDownMove;
 	};
@@ -34,4 +34,5 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 	alarm[0] = (room_speed * moveDelay); 
 };
 
+show_debug_message(nextToDoor)
 

@@ -2,7 +2,7 @@
     "id": "37a07c26-0df8-459e-920c-66859d96f8ed",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oParentSolid",
+    "name": "oParentDoor",
     "eventList": [
         {
             "id": "7e9b4116-cb14-4dd0-b15e-b709e593ab17",
