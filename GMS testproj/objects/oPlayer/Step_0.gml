@@ -9,21 +9,29 @@ upDownMove = (keyboard_check(ord("S")) || keyboard_check(vk_down)) - (keyboard_c
 
 if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 {
+	nextToDoor = false;
 	rightLeftMove *= moveTile;
 	if(!place_meeting(x + rightLeftMove, y, oParentSolid))
 	{
-		
 		x += rightLeftMove;
+	};
+	else
+	{
+		nextToDoor = true;
 	}
 	
-
 	upDownMove *= moveTile;
 	if(!place_meeting(x , y + upDownMove, oParentSolid))
 	{
-		
 		y += upDownMove;
+	};
+	else
+	{
+		nextToDoor = true;
 	}
+	
 	canMove = false;
 	alarm[0] = (room_speed * moveDelay); 
 };
+
 

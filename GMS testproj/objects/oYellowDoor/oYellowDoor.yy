@@ -5,7 +5,7 @@
     "name": "oYellowDoor",
     "eventList": [
         {
-            "id": "6ad5595b-7212-481e-a77e-f0b7772b9945",
+            "id": "128aaee6-e360-4fd7-8e4a-ef6ca2091a01",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "2cbc2e2e-afd4-410a-b7a3-8ed060328f11"
         },
         {
-            "id": "a6af7232-b923-4a49-8cf9-09e3ceb4417e",
+            "id": "fd48b65b-6243-44f4-9e25-ea250a2d3c7d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

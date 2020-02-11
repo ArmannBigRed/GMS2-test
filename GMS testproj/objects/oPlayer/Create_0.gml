@@ -9,3 +9,6 @@ moveTile = 64;
 moveDelay = 0.25;
 
 canMove = true;
+
+keyColor = "playerKeyColor"
+nextToDoor = false;
