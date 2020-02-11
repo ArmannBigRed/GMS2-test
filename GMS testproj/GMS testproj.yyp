@@ -82,7 +82,7 @@
             "Key": "37a07c26-0df8-459e-920c-66859d96f8ed",
             "Value": {
                 "id": "fb519766-a120-451a-a970-c1bd68b92c0e",
-                "resourcePath": "objects\\oParentDoor\\oParentDoor.yy",
+                "resourcePath": "objects\\oParentSolid\\oParentSolid.yy",
                 "resourceType": "GMObject"
             }
         },

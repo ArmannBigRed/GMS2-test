@@ -10,13 +10,13 @@ upDownMove = (keyboard_check(ord("S")) || keyboard_check(vk_down)) - (keyboard_c
 if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 {
 	rightLeftMove *= moveTile;
-	if(!place_meeting(x + rightLeftMove, y, oParentDoor))
+	if(!place_meeting(x + rightLeftMove, y, oParentSolid))
 	{
 		x += rightLeftMove;
 	};
 	
 	upDownMove *= moveTile;
-	if(!place_meeting(x , y + upDownMove, oParentDoor))
+	if(!place_meeting(x , y + upDownMove, oParentSolid))
 	{
 		y += upDownMove;
 	};
@@ -25,5 +25,8 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0))
 	alarm[0] = (room_speed * moveDelay); 
 };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 74e3317... v0.02
 
