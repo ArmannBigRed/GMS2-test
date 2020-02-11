@@ -11,4 +11,3 @@ moveDelay = 0.25;
 canMove = true;
 
 keyColor = "playerKeyColor"
-nextToDoor = false;
