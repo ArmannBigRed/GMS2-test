@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1097d7cb-c55d-41ce-a403-bc1d1680bfba",
+            "Value": {
+                "id": "55f2abad-2b47-409f-96bb-5a4def43c22a",
+                "resourcePath": "objects\\oRedDoor\\oRedDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "290f817a-da21-440d-a2e4-c6b0007e41c3",
             "Value": {
                 "id": "b9d30bdd-8805-4427-a796-d9d2f183b34d",
@@ -82,7 +90,7 @@
             "Key": "37a07c26-0df8-459e-920c-66859d96f8ed",
             "Value": {
                 "id": "fb519766-a120-451a-a970-c1bd68b92c0e",
-                "resourcePath": "objects\\oParentSolid\\oParentSolid.yy",
+                "resourcePath": "objects\\oDoorParent\\oDoorParent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -151,6 +159,30 @@
             }
         },
         {
+            "Key": "7c1be2d4-f586-4688-8f69-1dff8c165f98",
+            "Value": {
+                "id": "875a688c-ac6b-4979-9881-51fe7a0e15d3",
+                "resourcePath": "sprites\\sRedKey\\sRedKey.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82d96984-cfed-4fa3-b46f-4bdae0b7bee4",
+            "Value": {
+                "id": "ac11e81a-bfa2-4082-bc62-1acd0ef64001",
+                "resourcePath": "objects\\oSolidParent\\oSolidParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "84c0e1c4-623d-49b4-a2f6-893e63899244",
+            "Value": {
+                "id": "decfb130-c6aa-40b6-a349-e231bf4e825c",
+                "resourcePath": "sprites\\sRock\\sRock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8564a369-9212-4797-9861-95844b562cde",
             "Value": {
                 "id": "83665932-8719-4589-ae0b-aefd8b09f3ab",
@@ -164,6 +196,14 @@
                 "id": "468c2b28-d99a-47df-9c1c-8dc80becec70",
                 "resourcePath": "objects\\oKeyParent\\oKeyParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a22272e1-0879-44f5-8e25-679f3e8b9b6c",
+            "Value": {
+                "id": "284fba71-0d56-4f55-98d2-776cea8043d7",
+                "resourcePath": "sprites\\sRedDoor\\sRedDoor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -220,6 +260,14 @@
                 "id": "797bde09-d20f-4887-bbbb-3ac71d915740",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf672b4a-538a-4c55-a208-1f10170fca22",
+            "Value": {
+                "id": "90da82ed-16ff-4db9-9f1b-bc2c0328bb2f",
+                "resourcePath": "objects\\oRedKey\\oRedKey.yy",
+                "resourceType": "GMObject"
             }
         },
         {

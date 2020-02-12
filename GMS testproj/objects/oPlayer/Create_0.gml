@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Init
+
 
 rightLeftMove = 0;
 upDownMove = 0;
@@ -12,4 +12,4 @@ canMove = true;
 
 keyColor = "playerKeyColor"
 
-nextToDoor = false;
+canOpenDoor = false;
