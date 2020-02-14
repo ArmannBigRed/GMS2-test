@@ -1,6 +1,6 @@
 /// @description 
 
 
-if(oPlayer.keyColor == doorColor && oPlayer.canOpenDoor){
+if(oPlayer.currentCostume == doorColor && oPlayer.canOpenDoor){
 	instance_destroy()
 };

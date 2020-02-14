@@ -11,21 +11,21 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
 	canOpenDoor = false;
 	
 	rightLeftMove *= moveTile;
-	if(!place_meeting(x + rightLeftMove, y, oDoorParent)){
+	if(!place_meeting(x + rightLeftMove, y, oDoorParent) && !place_meeting(x + rightLeftMove, y, oSolidParent)){
 		x += rightLeftMove;
 	};
-	else{
-		if(instance_place(x + rightLeftMove, y, oDoorParent).doorColor == keyColor){
+	else if (!place_meeting(x + rightLeftMove, y, oSolidParent)){
+		if(instance_place(x + rightLeftMove, y, oDoorParent).doorColor == currentCostume){
 			canOpenDoor = true;
 		}
 	};
 	
 	upDownMove *= moveTile;
-	if(!place_meeting(x , y + upDownMove, oDoorParent)){
+	if(!place_meeting(x , y + upDownMove, oDoorParent) && !place_meeting(x , y + upDownMove, oSolidParent)){
 		y += upDownMove;
 	};
-	else{
-		if(instance_place(x , y + upDownMove, oDoorParent).doorColor == keyColor){
+	else if (!place_meeting(x , y + upDownMove, oSolidParent)){
+		if(instance_place(x , y + upDownMove, oDoorParent).doorColor == currentCostume){
 			canOpenDoor = true;
 		}
 	};

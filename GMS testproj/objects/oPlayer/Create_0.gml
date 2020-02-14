@@ -6,10 +6,11 @@ upDownMove = 0;
 
 moveTile = 64;
 //moveDelay in seconds
-moveDelay = 0.25;
+moveDelay = 0.15;
 
 canMove = true;
 
-keyColor = "playerKeyColor"
+currentCostume = "playerCurrentCostume"
+currentSprite = 2;
 
 canOpenDoor = false;

@@ -42,7 +42,7 @@
             "Key": "1097d7cb-c55d-41ce-a403-bc1d1680bfba",
             "Value": {
                 "id": "55f2abad-2b47-409f-96bb-5a4def43c22a",
-                "resourcePath": "objects\\oRedDoor\\oRedDoor.yy",
+                "resourcePath": "objects\\oDoorRed\\oDoorRed.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "2cbc2e2e-afd4-410a-b7a3-8ed060328f11",
             "Value": {
                 "id": "d2c4f5aa-2081-4ef5-a656-5b5fbefc5e5d",
-                "resourcePath": "objects\\oYellowDoor\\oYellowDoor.yy",
+                "resourcePath": "objects\\oDoorYellow\\oDoorYellow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "3824b4a5-22b2-4d12-91d0-ea248e8c3818",
             "Value": {
                 "id": "bd2fa4b4-91ce-47e6-b2a3-c653453fae33",
-                "resourcePath": "sprites\\sYellowKey\\sYellowKey.yy",
+                "resourcePath": "sprites\\sCostumeYellow\\sCostumeYellow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "76e107f8-2dcf-425b-ab95-a538bc9f955f",
             "Value": {
                 "id": "5d8b55a0-be64-4095-9f77-c65af51fe298",
-                "resourcePath": "objects\\oYellowKey\\oYellowKey.yy",
+                "resourcePath": "objects\\oCostumeYellow\\oCostumeYellow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -162,7 +162,7 @@
             "Key": "7c1be2d4-f586-4688-8f69-1dff8c165f98",
             "Value": {
                 "id": "875a688c-ac6b-4979-9881-51fe7a0e15d3",
-                "resourcePath": "sprites\\sRedKey\\sRedKey.yy",
+                "resourcePath": "sprites\\sCostumeRed\\sCostumeRed.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -194,7 +194,7 @@
             "Key": "9ad0416f-da14-4b59-b279-e26870e2ff2d",
             "Value": {
                 "id": "468c2b28-d99a-47df-9c1c-8dc80becec70",
-                "resourcePath": "objects\\oKeyParent\\oKeyParent.yy",
+                "resourcePath": "objects\\oCostumeParent\\oCostumeParent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "a22272e1-0879-44f5-8e25-679f3e8b9b6c",
             "Value": {
                 "id": "284fba71-0d56-4f55-98d2-776cea8043d7",
-                "resourcePath": "sprites\\sRedDoor\\sRedDoor.yy",
+                "resourcePath": "sprites\\sDoorRed\\sDoorRed.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -242,8 +242,16 @@
             "Key": "be77c382-9f18-4de6-ba19-359d909f8d5b",
             "Value": {
                 "id": "7a9435ab-2df1-4f7f-9be5-e1972dca04ed",
-                "resourcePath": "sprites\\sYellowDoor\\sYellowDoor.yy",
+                "resourcePath": "sprites\\sDoorYellow\\sDoorYellow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bf09350b-b69c-4ee4-8569-b945fb878c16",
+            "Value": {
+                "id": "f5ebca68-fb7b-40e5-9475-968db0bfa1e3",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -266,7 +274,7 @@
             "Key": "cf672b4a-538a-4c55-a208-1f10170fca22",
             "Value": {
                 "id": "90da82ed-16ff-4db9-9f1b-bc2c0328bb2f",
-                "resourcePath": "objects\\oRedKey\\oRedKey.yy",
+                "resourcePath": "objects\\oCostumeRed\\oCostumeRed.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -284,6 +292,14 @@
                 "id": "e55bc701-b469-477f-88d0-a28f894b4277",
                 "resourcePath": "views\\e94897b3-a1d5-4b29-923e-759a7e95f6ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0dd9309-9482-4631-a45a-639e5b135ff3",
+            "Value": {
+                "id": "09194af2-23f7-4ee6-b6f1-dcdc0017fe78",
+                "resourcePath": "objects\\oRock\\oRock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
