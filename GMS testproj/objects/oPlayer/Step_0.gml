@@ -8,8 +8,10 @@ upDownMove = (keyboard_check(ord("S")) || keyboard_check(vk_down)) - (keyboard_c
 
 
 if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
+	//TODO:
+	//need to move canOpenDoor variable somewhere else, doesnt make sense with 0 speed,
+	// or maybe it does since alarm sets a movedelay so the speed is always 0 between loops
 	canOpenDoor = false;
-	
 	rightLeftMove *= moveTile;
 	if(!place_meeting(x + rightLeftMove, y, oDoorParent) && !place_meeting(x + rightLeftMove, y, oSolidParent)){
 		x += rightLeftMove;

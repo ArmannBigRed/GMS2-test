@@ -1,23 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
 if(rightLeftMove == 0 && upDownMove == 0){
 	image_index = currentSprite;
 };
 
 switch (currentCostume){
-	case "playerCurrentCostume":{
-		sprite_index = sPlayer;
+	case "blue":{
+		sprite_index = sCostumeBlue;
+		oCostumeParent.lastCostume = oCostumeBlue;
 		break;
 	}
 	case "yellow":{
 		sprite_index = sCostumeYellow;
-		oCostumeParent.oCreate = oCostumeYellow;
+		oCostumeParent.lastCostume = oCostumeYellow;
 		break;
 	}
 	case "red":{
 		sprite_index = sCostumeRed;
+		oCostumeParent.lastCostume = oCostumeRed;
 		break;
 	}
 };
@@ -47,3 +48,5 @@ switch (upDownMove){
 		break;
 	}
 };
+
+draw_self();

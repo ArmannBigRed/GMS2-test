@@ -10,7 +10,12 @@ moveDelay = 0.15;
 
 canMove = true;
 
-currentCostume = "playerCurrentCostume"
+
 currentSprite = 2;
 
 canOpenDoor = false;
+
+
+//first costume of the level
+initialCostume = "blue";
+currentCostume = initialCostume;

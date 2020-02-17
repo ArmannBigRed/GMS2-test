@@ -1,6 +1,6 @@
 /// @description Init
 
 currentCostume = "parentCurrentCostume"
-beenPickedUp = false;
-costumePickUpable = false;
-oCreate = 0;
+canBePickedUp = false;
+myID = id;
+lastCostume = 1;

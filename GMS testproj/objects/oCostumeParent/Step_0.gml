@@ -1,15 +1,12 @@
 /// @description
 
 
-if(place_meeting(x, y, oPlayer)&& !beenPickedUp){
+if(place_meeting(x, y, oPlayer) && canBePickedUp){
+	//canBePickedUp = false;
 	oPlayer.currentCostume = currentCostume;
-	beenPickedUp = true;
-	instance_destroy();
+	instance_create_depth(x,y,1,lastCostume);
+	instance_destroy(myID);
 };
-
-if(beenPickedUp){
-	instance_create_depth(oPlayer.x, oPlayer.y, 1, oCreate)
-}
-else{
-	beenPickedUp = false;
-}
+else if(!place_meeting(x, y, oPlayer) && !canBePickedUp){
+	canBePickedUp = true;
+};
