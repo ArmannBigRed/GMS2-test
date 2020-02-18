@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02a26ae7-2243-45b9-b42e-49f936938099",
+            "Value": {
+                "id": "c42d2535-3671-43d9-9488-f42f2691adf2",
+                "resourcePath": "sprites\\sSolidTombstone\\sSolidTombstone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04ffaff9-73ef-444b-b6ab-7a5454c8e34d",
             "Value": {
                 "id": "3c502a24-2531-42c6-a749-f7b1db6f8877",
@@ -47,11 +55,27 @@
             }
         },
         {
+            "Key": "1ffd4986-0ddb-4de2-9451-d4af56e29d6a",
+            "Value": {
+                "id": "2b803e79-9027-4a8b-bda1-5aa2c7e17934",
+                "resourcePath": "sprites\\sSolidFence\\sSolidFence.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2600e332-5ef1-48e4-af35-a0a8a6a26f33",
             "Value": {
                 "id": "08ca8889-6490-4b1f-a8f7-96fc21316835",
                 "resourcePath": "objects\\oCostumeBlue\\oCostumeBlue.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "277d0d0f-9bb1-42f9-9be3-6ee042454d0f",
+            "Value": {
+                "id": "f8ffd41c-6825-40e4-85d3-652b0fc9baa1",
+                "resourcePath": "sprites\\sDoorBlue\\sDoorBlue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -116,6 +140,30 @@
                 "id": "bd2fa4b4-91ce-47e6-b2a3-c653453fae33",
                 "resourcePath": "sprites\\sCostumeYellow\\sCostumeYellow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41e8b0f6-bbed-48ff-ab25-110b88986ba6",
+            "Value": {
+                "id": "670d9107-3a5e-46ba-81d7-f06bad543d43",
+                "resourcePath": "views\\41e8b0f6-bbed-48ff-ab25-110b88986ba6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45369f31-b27b-44a0-92b3-e735d948727a",
+            "Value": {
+                "id": "bc44fbe2-e1d6-4157-a59a-b59d47d3523e",
+                "resourcePath": "objects\\oDoorBlue\\oDoorBlue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a25d06e-d7d0-44a3-b450-a258ac07c3a4",
+            "Value": {
+                "id": "4190080e-e1e1-4f71-8d42-47407afe61f9",
+                "resourcePath": "objects\\oSolidTombstone\\oSolidTombstone.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -202,7 +250,7 @@
             "Key": "84c0e1c4-623d-49b4-a2f6-893e63899244",
             "Value": {
                 "id": "decfb130-c6aa-40b6-a349-e231bf4e825c",
-                "resourcePath": "sprites\\sRock\\sRock.yy",
+                "resourcePath": "sprites\\sSolidRock\\sSolidRock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -236,6 +284,14 @@
                 "id": "1ceb5905-b235-4a4a-af73-625614fac7ab",
                 "resourcePath": "views\\a42d9729-1ec2-4d5f-9526-1ae727e21d19.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab215003-8ae6-4a0a-9e5d-9cb81226e43d",
+            "Value": {
+                "id": "22ff7fe4-0967-4750-874a-f3ebfeacffd1",
+                "resourcePath": "objects\\oSolidFence\\oSolidFence.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,6 +367,14 @@
             }
         },
         {
+            "Key": "e0c30dc4-2c56-443d-8a8d-eb3dbaa27f5e",
+            "Value": {
+                "id": "21d88075-60a5-42c6-885b-2c3416ace362",
+                "resourcePath": "views\\e0c30dc4-2c56-443d-8a8d-eb3dbaa27f5e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e2ce912e-4d5b-439e-883a-90769d1598a6",
             "Value": {
                 "id": "2ecd797c-91f8-4fe1-9151-133c8316aff4",
@@ -330,7 +394,7 @@
             "Key": "f0dd9309-9482-4631-a45a-639e5b135ff3",
             "Value": {
                 "id": "09194af2-23f7-4ee6-b6f1-dcdc0017fe78",
-                "resourcePath": "objects\\oRock\\oRock.yy",
+                "resourcePath": "objects\\oSolidRock\\oSolidRock.yy",
                 "resourceType": "GMObject"
             }
         },

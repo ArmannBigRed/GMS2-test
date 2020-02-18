@@ -2,7 +2,7 @@
     "id": "f0dd9309-9482-4631-a45a-639e5b135ff3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oRock",
+    "name": "oSolidRock",
     "eventList": [
         
     ],

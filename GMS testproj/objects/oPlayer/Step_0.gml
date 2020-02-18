@@ -12,14 +12,15 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
 	//need to move canOpenDoor variable somewhere else, doesnt make sense with 0 speed,
 	// or maybe it does since alarm sets a movedelay so the speed is always 0 between loops
 	canOpenDoor = false;
+	
 	rightLeftMove *= moveTile;
 	if(!place_meeting(x + rightLeftMove, y, oDoorParent) && !place_meeting(x + rightLeftMove, y, oSolidParent)){
-		x += rightLeftMove;
+			x += rightLeftMove;
 	};
 	else if (!place_meeting(x + rightLeftMove, y, oSolidParent)){
 		if(instance_place(x + rightLeftMove, y, oDoorParent).doorColor == currentCostume){
-			canOpenDoor = true;
-		}
+			instance_destroy(instance_place(x + rightLeftMove, y, oDoorParent));
+		};
 	};
 	
 	upDownMove *= moveTile;
@@ -28,8 +29,8 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
 	};
 	else if (!place_meeting(x , y + upDownMove, oSolidParent)){
 		if(instance_place(x , y + upDownMove, oDoorParent).doorColor == currentCostume){
-			canOpenDoor = true;
-		}
+			instance_destroy(instance_place(x , y + upDownMove, oDoorParent));
+		};
 	};
 	
 	canMove = false;
