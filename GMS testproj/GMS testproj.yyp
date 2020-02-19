@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "bf09350b-b69c-4ee4-8569-b945fb878c16",
-            "Value": {
-                "id": "f5ebca68-fb7b-40e5-9475-968db0bfa1e3",
-                "resourcePath": "scripts\\script0\\script0.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cb3f4779-ea20-4d56-acc9-880887edac25",
             "Value": {
                 "id": "5d8e6a20-1c82-4ead-ba02-068de9f35f08",
