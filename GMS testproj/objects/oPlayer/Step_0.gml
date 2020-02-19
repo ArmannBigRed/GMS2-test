@@ -15,7 +15,7 @@ if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
 	
 	rightLeftMove *= moveTile;
 	if(!place_meeting(x + rightLeftMove, y, oDoorParent) && !place_meeting(x + rightLeftMove, y, oSolidParent)){
-			x += rightLeftMove;
+		x += rightLeftMove;
 	};
 	else if (!place_meeting(x + rightLeftMove, y, oSolidParent)){
 		if(instance_place(x + rightLeftMove, y, oDoorParent).doorColor == currentCostume){
