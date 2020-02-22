@@ -1,38 +1,34 @@
 /// @description 
 
-
-
-//Movement
-rightLeftMove = (keyboard_check(ord("D")) || keyboard_check(vk_right)) - (keyboard_check(ord("A")) || keyboard_check(vk_left));
-upDownMove = (keyboard_check(ord("S")) || keyboard_check(vk_down)) - (keyboard_check(ord("W")) || keyboard_check(vk_up));
-
-
-if(canMove && (rightLeftMove != 0 || upDownMove != 0)){
-	//TODO:
-	//need to move canOpenDoor variable somewhere else, doesnt make sense with 0 speed,
-	// or maybe it does since alarm sets a movedelay so the speed is always 0 between loops
-	canOpenDoor = false;
+show_debug_message(gridX);
+show_debug_message(gridY);
+//Slide to the next point if we're not already at it
+if(gridX != toX || gridY != toY){
+	gridX += clamp(toX - gridX, -slide, slide);
+	gridY += clamp(toY - gridY, -slide, slide);
 	
-	rightLeftMove *= moveTile;
-	if(!place_meeting(x + rightLeftMove, y, oDoorParent) && !place_meeting(x + rightLeftMove, y, oSolidParent)){
-		x += rightLeftMove;
+	x = gridX * gridScale;
+	y = gridY * gridScale;
+	//make the movement smooth if key is held down
+	if(gridX == toX && gridY == toY){
+		event_perform(ev_step, 0);
 	};
-	else if (!place_meeting(x + rightLeftMove, y, oSolidParent)){
-		if(instance_place(x + rightLeftMove, y, oDoorParent).doorColor == currentCostume){
-			instance_destroy(instance_place(x + rightLeftMove, y, oDoorParent));
+};
+else{
+	//check for inputs / if movement is possible (add collision here)
+	
+	rightLeftMove = (keyboard_check(ord("D"))) + (-keyboard_check(ord("A")));
+	upDownMove = (keyboard_check(ord("S"))) + (-keyboard_check(ord("W")));
+	
+	if(abs(rightLeftMove + upDownMove) == 1){
+		if(place_free((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale) || place_meeting((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oCostumeParent)){
+			toX += rightLeftMove;
+			toY += upDownMove;
+		};
+		else if(!place_meeting((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oSolidParent)){
+			if(instance_place((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oDoorParent).doorColor == currentCostume){
+				instance_destroy(instance_place((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oDoorParent))
+			};
 		};
 	};
-	
-	upDownMove *= moveTile;
-	if(!place_meeting(x , y + upDownMove, oDoorParent) && !place_meeting(x , y + upDownMove, oSolidParent)){
-		y += upDownMove;
-	};
-	else if (!place_meeting(x , y + upDownMove, oSolidParent)){
-		if(instance_place(x , y + upDownMove, oDoorParent).doorColor == currentCostume){
-			instance_destroy(instance_place(x , y + upDownMove, oDoorParent));
-		};
-	};
-	
-	canMove = false;
-	alarm[0] = (room_speed * moveDelay); 
 };

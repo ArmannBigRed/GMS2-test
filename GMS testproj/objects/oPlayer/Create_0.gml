@@ -1,21 +1,31 @@
 /// @description Init
 
 
-rightLeftMove = 0;
-upDownMove = 0;
 
-moveTile = 64;
-//moveDelay in seconds
-moveDelay = 0.15;
-
-canMove = true;
 
 
 currentSprite = 2;
 
-canOpenDoor = false;
-
-
 //first costume of the level
 initialCostume = "blue";
 currentCostume = initialCostume;
+nextFrame = true;
+
+//movement on the grid
+rightLeftMove = 0;
+rightLeftMove = 0;
+
+//time to slide
+slide = 1/16;
+
+gridScale = 64;
+
+//Where oPlayer is on the grid
+gridX = round(x/gridScale);
+gridY = round(y/gridScale);
+//moveTo
+toX = gridX;
+toY = gridY;
+//where you are on the grid
+x = gridX * gridScale;
+y = gridY * gridScale;
