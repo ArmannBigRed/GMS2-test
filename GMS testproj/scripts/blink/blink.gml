@@ -8,4 +8,4 @@ else{
 	if (blinking >= 1){
 		blinking = 0;
 	}
-}
+};
