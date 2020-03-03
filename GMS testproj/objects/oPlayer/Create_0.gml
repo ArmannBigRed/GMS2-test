@@ -1,7 +1,5 @@
 /// @description Init
 
-currentSprite = 2;
-
 //first costume of the level
 initialCostume = "blue";
 currentCostume = initialCostume;

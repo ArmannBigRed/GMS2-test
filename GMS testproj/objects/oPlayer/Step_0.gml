@@ -1,7 +1,5 @@
 /// @description 
 
-show_debug_message(gridX);
-show_debug_message(gridY);
 //Slide to the next point if we're not already at it
 if(gridX != toX || gridY != toY){
 	gridX += clamp(toX - gridX, -slide, slide);
