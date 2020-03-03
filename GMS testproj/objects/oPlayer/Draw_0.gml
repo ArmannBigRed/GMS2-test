@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(rightLeftMove == 0 && upDownMove == 0){
-	image_index = currentSprite;
-};
+blink();
+
+image_index = isBlinking();
 
 switch (currentCostume){
 	case "blue":{
@@ -23,6 +23,9 @@ switch (currentCostume){
 	}
 };
 
+draw_self();
+
+/*
 switch (rightLeftMove){
 	case 1:{
 		image_index = 0;
@@ -48,5 +51,4 @@ switch (upDownMove){
 		break;
 	}
 };
-
-draw_self();
+*/

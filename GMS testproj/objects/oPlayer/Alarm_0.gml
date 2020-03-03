@@ -1,3 +1,0 @@
-/// @description movedelay
-
-canMove = true;

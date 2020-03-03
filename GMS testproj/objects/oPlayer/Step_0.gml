@@ -32,3 +32,8 @@ else{
 		};
 	};
 };
+
+//change right / left facing depending on input
+if (rightLeftMove != 0) {
+	image_xscale = sign(rightLeftMove);
+};

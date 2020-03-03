@@ -1,9 +1,5 @@
 /// @description Init
 
-
-
-
-
 currentSprite = 2;
 
 //first costume of the level
@@ -29,3 +25,5 @@ toY = gridY;
 //where you are on the grid
 x = gridX * gridScale;
 y = gridY * gridScale;
+
+blinkInit();
