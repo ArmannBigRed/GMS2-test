@@ -1,7 +1,5 @@
 blink();
 
-image_index = isBlinking();
-
 switch (currentCostume){
 	case "blue":{
 		sprite_index = sCostumeBlue;
@@ -20,11 +18,13 @@ switch (currentCostume){
 	}
 };
 
+
 //change right / left facing depending on input
 if (rightLeftMove != 0) {
 	image_xscale = sign(rightLeftMove);
 };
 
+image_index = isBlinking();
 
 draw_sprite_ext(sShadow, 0, x, y+height*0.5, 1, 1, 0, c_white, 0.25)
 draw_self();
