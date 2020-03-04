@@ -1,9 +1,6 @@
-/// @description Init
-
 //first costume of the level
 initialCostume = "blue";
 currentCostume = initialCostume;
-nextFrame = true;
 
 //movement on the grid
 rightLeftMove = 0;

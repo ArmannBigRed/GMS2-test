@@ -1,4 +1,1 @@
-/// @description Init
-
-
 doorColor = "parentDoorColor"

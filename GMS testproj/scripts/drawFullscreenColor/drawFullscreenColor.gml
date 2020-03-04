@@ -4,7 +4,6 @@
 
 var color = argument[0];
 
-// Overload arguments
 var alpha = 1;				if argument_count > 1{ alpha = argument[1]; }
 var bottomColor = color;	if argument_count > 2{ bottomColor = argument[2]; }
 

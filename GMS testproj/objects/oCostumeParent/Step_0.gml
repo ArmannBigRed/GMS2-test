@@ -1,6 +1,3 @@
-/// @description
-
-
 if(place_meeting(x, y, oPlayer) && canBePickedUp){
 	oPlayer.currentCostume = currentCostume;
 	//TODO

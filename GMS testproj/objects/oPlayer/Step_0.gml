@@ -1,4 +1,4 @@
-/// @description 
+event_inherited()
 
 //Slide to the next point if we're not already at it
 if(gridX != toX || gridY != toY){

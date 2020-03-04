@@ -1,5 +1,3 @@
-/// @description Init
-
 currentCostume = "parentCurrentCostume"
 canBePickedUp = false;
 myID = id;
