@@ -9,7 +9,7 @@ nextFrame = true;
 rightLeftMove = 0;
 rightLeftMove = 0;
 
-//time to slide
+//time to slide alter second number for faster or slower movement
 slide = 1/16;
 
 gridScale = 64;

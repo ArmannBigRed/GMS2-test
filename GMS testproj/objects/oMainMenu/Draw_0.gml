@@ -1,0 +1,1 @@
+drawFullscreenColor(bckgrColor, 1, bckgrBottomColor);

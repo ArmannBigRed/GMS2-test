@@ -1,14 +1,23 @@
 {
-    "id": "ab215003-8ae6-4a0a-9e5d-9cb81226e43d",
+    "id": "47f91797-cf56-479b-9f3e-b50827b4927e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSolidFence",
+    "name": "oInit",
     "eventList": [
-        
+        {
+            "id": "c3b7c7c7-6860-4c90-b0a9-436203989f48",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "47f91797-cf56-479b-9f3e-b50827b4927e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "82d96984-cfed-4fa3-b46f-4bdae0b7bee4",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -23,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "1ffd4986-0ddb-4de2-9451-d4af56e29d6a",
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
