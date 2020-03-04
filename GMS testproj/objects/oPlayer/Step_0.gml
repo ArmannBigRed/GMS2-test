@@ -2,8 +2,8 @@ event_inherited()
 
 //Slide to the next point if we're not already at it
 if(gridX != toX || gridY != toY){
-	gridX += clamp(toX - gridX, -slide, slide);
-	gridY += clamp(toY - gridY, -slide, slide);
+	gridX += clamp(toX - gridX, -slide*SLOMO_SECONDS, slide*SLOMO_SECONDS);
+	gridY += clamp(toY - gridY, -slide*SLOMO_SECONDS, slide*SLOMO_SECONDS);
 	
 	x = gridX * gridScale;
 	y = gridY * gridScale;
@@ -31,7 +31,4 @@ else{
 	};
 };
 
-//change right / left facing depending on input
-if (rightLeftMove != 0) {
-	image_xscale = sign(rightLeftMove);
-};
+updateWorldDepth();

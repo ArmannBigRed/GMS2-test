@@ -6,5 +6,6 @@
 #macro c_softred make_color_rgb(255,64,0)
 #macro c_softgreen make_color_rgb(167,255,0)
 
+timeInit();
 
 room_goto(rMainMenu);

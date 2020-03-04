@@ -1,3 +1,4 @@
+event_inherited();
 //first costume of the level
 initialCostume = "blue";
 currentCostume = initialCostume;

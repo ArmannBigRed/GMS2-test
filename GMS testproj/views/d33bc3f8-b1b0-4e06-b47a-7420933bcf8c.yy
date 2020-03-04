@@ -6,7 +6,8 @@
     "children": [
         "e27706c9-673b-4bcd-983d-8bf878b0cf54",
         "def5effa-a5c0-49bf-8988-e8257dcfb578",
-        "da51ed8a-802b-4082-b3bc-3a9685f6dead"
+        "da51ed8a-802b-4082-b3bc-3a9685f6dead",
+        "e2ce912e-4d5b-439e-883a-90769d1598a6"
     ],
     "filterType": "GMObject",
     "folderName": "Gameplay",

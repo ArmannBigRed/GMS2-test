@@ -8,7 +8,8 @@
         "a6ccef76-f132-4d89-9bdb-c1b0a28b4c89",
         "150740d3-4161-4444-b806-418403dd64de",
         "a17933cb-44ca-45c1-8f52-ca2c18aa035f",
-        "4aef845c-d32b-4fd9-bfda-a3982f790e2f"
+        "4aef845c-d32b-4fd9-bfda-a3982f790e2f",
+        "065c5398-ecfc-476c-8267-07f01366b29f"
     ],
     "filterType": "GMScript",
     "folderName": "Convenience",
