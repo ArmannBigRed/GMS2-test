@@ -24,5 +24,4 @@ toY = gridY;
 x = gridX * gridScale;
 y = gridY * gridScale;
 
-blinkInit();
-squishInit();
+flipFlop = 1;
