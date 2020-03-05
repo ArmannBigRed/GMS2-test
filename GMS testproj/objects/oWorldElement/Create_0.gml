@@ -7,3 +7,6 @@ zSpeed	= 0;
 
 
 updateWorldDepth();
+
+xScale = 1;
+yScale = 1;

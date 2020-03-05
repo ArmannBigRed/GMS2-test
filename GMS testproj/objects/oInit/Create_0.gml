@@ -8,4 +8,6 @@
 
 timeInit();
 
+globalvar GRAVITY; GRAVITY = 2500;
+
 room_goto(rMainMenu);

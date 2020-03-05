@@ -25,3 +25,4 @@ x = gridX * gridScale;
 y = gridY * gridScale;
 
 blinkInit();
+squishInit();

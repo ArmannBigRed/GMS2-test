@@ -1,4 +1,5 @@
 blink();
+squishUpdate();
 
 switch (currentCostume){
 	case "blue":{
@@ -20,6 +21,6 @@ switch (currentCostume){
 
 draw_sprite_ext(sShadow, 0, x, y+height*0.5, 1, 1, 0, c_white, 0.25)
 
-image_index = isBlinking();
-draw_self();
+draw_sprite_ext(sprite_index, isBlinking(),x, y+z, xScale*squishXScale, squishYScale, 0, c_white, 1)
+
 

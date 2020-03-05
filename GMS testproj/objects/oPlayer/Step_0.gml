@@ -1,5 +1,4 @@
 event_inherited()
-show_debug_message(slide)
 
 //TODO make some scripts for this block and move it into oWorldElement since other stuff is gonna need to move later
 #region Movement and Collision 
@@ -10,6 +9,12 @@ if(gridX != toX || gridY != toY){
 
 	x = gridX * gridScale;
 	y = gridY * gridScale;
+	//bounce, change zSpeed value for height, squishSet for squishamount
+	//TODO adjust these values to make it feel better, maybe how many times we want to bounce for each tile move
+	if (z >= 0) {
+		zSpeed = -400;
+		squishSet(0.2);
+	};
 	//make the movement smooth if key is held down
 	if(gridX == toX && gridY == toY){
 		event_perform(ev_step, 0);
@@ -36,8 +41,9 @@ else{
 #endregion
 
 if(rightLeftMove != 0){
-	image_xscale = sign(rightLeftMove);	
+	xScale = sign(rightLeftMove);	
 };
 
+updateZ();
 updateWorldDepth();
 
