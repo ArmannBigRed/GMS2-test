@@ -10,6 +10,7 @@ var textRotation	= 10*sin(2.3*gameSeconds);
 drawText(textXDraw, textYDraw, gameTitle, 1, c_softblue, textRotation);
 #endregion
 
+
 #region Title foreground
 gameSeconds += 0.2;
 

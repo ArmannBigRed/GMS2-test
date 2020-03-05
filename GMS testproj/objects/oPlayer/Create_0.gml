@@ -7,8 +7,10 @@ currentCostume = initialCostume;
 rightLeftMove = 0;
 rightLeftMove = 0;
 
+
+
 //time to slide alter second number for faster or slower movement
-slide = 1/16;
+slide = SLOMO_SECONDS * 3;
 
 gridScale = 64;
 
