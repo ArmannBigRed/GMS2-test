@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0082844f-3e3f-408f-9a9a-128ddf423f8f",
+            "Value": {
+                "id": "8e71acb8-9e8c-40ab-954b-db21d8efe1e9",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02a26ae7-2243-45b9-b42e-49f936938099",
             "Value": {
                 "id": "c42d2535-3671-43d9-9488-f42f2691adf2",
@@ -108,6 +116,14 @@
                 "id": "eeb2d9d0-a718-45bc-86aa-cef3130c4a73",
                 "resourcePath": "views\\22670411-00f5-4415-8de9-fb662cfa3978.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "256df641-1ce6-4569-9052-7b1e6a177541",
+            "Value": {
+                "id": "e54353dd-169f-4bef-a9c7-859f5706fe02",
+                "resourcePath": "scripts\\viewWidth\\viewWidth.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -276,6 +292,14 @@
                 "id": "db370b5e-b140-4a3a-9f60-ce22ee6605ff",
                 "resourcePath": "rooms\\rInit\\rInit.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "4fa43886-2c2c-4c0d-bcd9-0bf06a562339",
+            "Value": {
+                "id": "ddc9ec65-1258-4680-b287-2f610a13e325",
+                "resourcePath": "scripts\\cameraSetTarget\\cameraSetTarget.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -767,11 +791,27 @@
             }
         },
         {
+            "Key": "eb5f4970-3714-4589-bf4e-cfc4312fb0ab",
+            "Value": {
+                "id": "a669933e-425e-4fc7-88ff-07f0fb6a829d",
+                "resourcePath": "scripts\\viewHeight\\viewHeight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f0dd9309-9482-4631-a45a-639e5b135ff3",
             "Value": {
                 "id": "09194af2-23f7-4ee6-b6f1-dcdc0017fe78",
                 "resourcePath": "objects\\oSolidRock\\oSolidRock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2e243d2-a3c7-4a0b-a73a-ec7a650cec96",
+            "Value": {
+                "id": "84867756-30ea-4c6a-96dd-fb60815b4dcd",
+                "resourcePath": "views\\f2e243d2-a3c7-4a0b-a73a-ec7a650cec96.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -807,6 +847,8 @@
         "439282e3-d335-421e-8f11-c38d76286ad6",
         "276191a5-6227-4c7f-bb3d-6e27eca03bca",
         "7372a3b9-294f-4c6f-976f-ffe713a1fb7e",
+        "256df641-1ce6-4569-9052-7b1e6a177541",
+        "eb5f4970-3714-4589-bf4e-cfc4312fb0ab",
         "a72ff973-93e6-4da1-bcbe-8ced4e7d0cf9",
         "e5fe689e-3f07-43e1-95f1-6ddf7eb43277",
         "a3a5ad2c-1b40-44ee-a841-373c38907a77",
@@ -817,7 +859,8 @@
         "d9fe98d9-c144-4509-a597-cd39f245959e",
         "a2852e64-e868-4100-9b98-c4d879a1842b",
         "1f05f5ba-5b8f-4f11-8259-8bab897268f5",
-        "bb7bbb06-45e9-4c2d-be51-692349bc4d16"
+        "bb7bbb06-45e9-4c2d-be51-692349bc4d16",
+        "4fa43886-2c2c-4c0d-bcd9-0bf06a562339"
     ],
     "tutorial": ""
 }
