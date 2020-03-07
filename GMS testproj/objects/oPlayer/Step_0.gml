@@ -13,10 +13,10 @@ if(gridX != toX || gridY != toY){
 	//TODO adjust these values to make it feel better, maybe how many times we want to bounce for each tile move
 	//Can also adjust GRAVITY in oInit that affects the fallspeed for z
 	if (z >= 0) {
-		zSpeed = -400;
+		zSpeed = -200;
 		flipFlop *= -1;
-		rotation = 15*flipFlop;
-		squishSet(0.1);
+		rotation = 3*flipFlop;
+		squishSet(0.1 * 0.5);
 	};
 	//make the movement smooth if key is held down
 	if(gridX == toX && gridY == toY){
