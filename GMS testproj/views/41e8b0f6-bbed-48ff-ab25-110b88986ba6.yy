@@ -9,7 +9,7 @@
         "277d0d0f-9bb1-42f9-9be3-6ee042454d0f"
     ],
     "filterType": "GMSprite",
-    "folderName": "sDoors",
+    "folderName": "Doors",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
