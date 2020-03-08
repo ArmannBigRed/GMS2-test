@@ -1,28 +1,28 @@
 {
-    "id": "e27706c9-673b-4bcd-983d-8bf878b0cf54",
+    "id": "851de6cd-5d82-4d57-9d8f-271d8ef6cd78",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGameplayController",
+    "name": "oScoreTracker",
     "eventList": [
         {
-            "id": "b6ed631f-2fe0-48db-b18e-0ed2ea08577a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
-        },
-        {
-            "id": "be0aff1e-beb4-4938-9bb3-167742b04082",
+            "id": "3bb16462-7313-437b-9afe-d868d3490224",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
+            "m_owner": "851de6cd-5d82-4d57-9d8f-271d8ef6cd78"
+        },
+        {
+            "id": "7c9b02eb-510c-43b5-b706-14181190f185",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "851de6cd-5d82-4d57-9d8f-271d8ef6cd78"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

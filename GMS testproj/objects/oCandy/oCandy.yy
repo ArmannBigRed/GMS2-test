@@ -1,28 +1,28 @@
 {
-    "id": "e27706c9-673b-4bcd-983d-8bf878b0cf54",
+    "id": "ebea79d8-1e9a-4165-a835-7d942367aaed",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGameplayController",
+    "name": "oCandy",
     "eventList": [
         {
-            "id": "b6ed631f-2fe0-48db-b18e-0ed2ea08577a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
-        },
-        {
-            "id": "be0aff1e-beb4-4938-9bb3-167742b04082",
+            "id": "2edcd563-bd24-48f3-b6d7-e0055d52c267",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
+            "eventtype": 8,
+            "m_owner": "ebea79d8-1e9a-4165-a835-7d942367aaed"
+        },
+        {
+            "id": "74bcdc5f-122e-4b06-9a15-751604036643",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ebea79d8-1e9a-4165-a835-7d942367aaed"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "078703da-caa7-40cd-aed7-ea0aa670cffd",
     "visible": true
 }

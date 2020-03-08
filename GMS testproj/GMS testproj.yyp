@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "078703da-caa7-40cd-aed7-ea0aa670cffd",
+            "Value": {
+                "id": "ed168f10-32b7-4507-861f-3d1e04cb80ea",
+                "resourcePath": "sprites\\sCandy\\sCandy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08d728ea-9e8a-4d24-aeaa-f402b75c1fc0",
             "Value": {
                 "id": "b6a68316-f9bd-45e9-af1e-24752113858b",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "27f0d5be-ac12-4997-8896-471dfb65fed9",
+            "Value": {
+                "id": "8b5361b0-e99a-4604-a2b7-4e2c2de7f6e5",
+                "resourcePath": "scripts\\rotate\\rotate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "290f817a-da21-440d-a2e4-c6b0007e41c3",
             "Value": {
                 "id": "b9d30bdd-8805-4427-a796-d9d2f183b34d",
@@ -204,6 +220,14 @@
                 "id": "33e600e4-25f2-48b9-8a32-2a05d720e48a",
                 "resourcePath": "views\\2f1942e1-3f1c-4953-bbe3-a168c1f3c85e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3601351a-41e8-44d7-bbd9-5892c0e3863f",
+            "Value": {
+                "id": "d62d4ccd-7e9a-4c21-a4a9-20a60ca1acc3",
+                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "851de6cd-5d82-4d57-9d8f-271d8ef6cd78",
+            "Value": {
+                "id": "70955c55-8f8a-47b7-b81f-3ebe5484e29a",
+                "resourcePath": "objects\\oScoreTracker\\oScoreTracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8564a369-9212-4797-9861-95844b562cde",
             "Value": {
                 "id": "83665932-8719-4589-ae0b-aefd8b09f3ab",
@@ -492,6 +524,14 @@
                 "id": "4f567f2d-1fd0-4df4-b5e2-05f2418e6d1a",
                 "resourcePath": "views\\8becec69-65b1-44ff-ad81-2fd1758afe52.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8de484e1-50b5-47c9-8f95-01cb0b11720e",
+            "Value": {
+                "id": "9eb9cb0d-acb9-49e9-a94b-e00c063f7181",
+                "resourcePath": "objects\\oCoin\\oCoin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -580,6 +620,14 @@
                 "id": "a97b75d1-7176-4dd9-bd27-98b976078a64",
                 "resourcePath": "scripts\\guiCenterX\\guiCenterX.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a9ce1535-afa2-48b4-8466-bf5b27bf7639",
+            "Value": {
+                "id": "90322239-400f-4b9f-ad66-540dfc4932de",
+                "resourcePath": "views\\a9ce1535-afa2-48b4-8466-bf5b27bf7639.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -695,6 +743,14 @@
             }
         },
         {
+            "Key": "d408ee31-a18d-4275-86d8-0b02a6797638",
+            "Value": {
+                "id": "bce276f2-295f-466e-b4df-e1e162728bb7",
+                "resourcePath": "views\\d408ee31-a18d-4275-86d8-0b02a6797638.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d830e59a-cd6c-43bb-a42a-bb90345a26ca",
             "Value": {
                 "id": "21b26c43-3f24-4cd9-b3d6-2df35db58aff",
@@ -799,11 +855,27 @@
             }
         },
         {
+            "Key": "ebea79d8-1e9a-4165-a835-7d942367aaed",
+            "Value": {
+                "id": "79c1a2c3-a796-4819-bf0f-da284b54f50d",
+                "resourcePath": "objects\\oCandy\\oCandy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f0dd9309-9482-4631-a45a-639e5b135ff3",
             "Value": {
                 "id": "09194af2-23f7-4ee6-b6f1-dcdc0017fe78",
                 "resourcePath": "objects\\oSolidRock\\oSolidRock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f26a743c-fd91-4148-8e85-0173938919ce",
+            "Value": {
+                "id": "68f049aa-3bd4-4a2d-8292-47c7c0655733",
+                "resourcePath": "sprites\\sCoin\\sCoin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -859,6 +931,7 @@
         "d9fe98d9-c144-4509-a597-cd39f245959e",
         "a2852e64-e868-4100-9b98-c4d879a1842b",
         "1f05f5ba-5b8f-4f11-8259-8bab897268f5",
+        "27f0d5be-ac12-4997-8896-471dfb65fed9",
         "bb7bbb06-45e9-4c2d-be51-692349bc4d16",
         "4fa43886-2c2c-4c0d-bcd9-0bf06a562339"
     ],

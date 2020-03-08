@@ -1,28 +1,28 @@
 {
-    "id": "e27706c9-673b-4bcd-983d-8bf878b0cf54",
+    "id": "8de484e1-50b5-47c9-8f95-01cb0b11720e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGameplayController",
+    "name": "oCoin",
     "eventList": [
         {
-            "id": "b6ed631f-2fe0-48db-b18e-0ed2ea08577a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
-        },
-        {
-            "id": "be0aff1e-beb4-4938-9bb3-167742b04082",
+            "id": "b5c314da-0f10-46f1-8b04-90cd0a5825b5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e27706c9-673b-4bcd-983d-8bf878b0cf54"
+            "eventtype": 8,
+            "m_owner": "8de484e1-50b5-47c9-8f95-01cb0b11720e"
+        },
+        {
+            "id": "14349751-84a9-4ca9-b236-e6ec67ec0b7d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "8de484e1-50b5-47c9-8f95-01cb0b11720e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "f26a743c-fd91-4148-8e85-0173938919ce",
     "visible": true
 }

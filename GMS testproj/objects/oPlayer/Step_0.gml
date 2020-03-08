@@ -49,4 +49,3 @@ if(rightLeftMove != 0){
 
 updateZ();
 updateWorldDepth();
-
