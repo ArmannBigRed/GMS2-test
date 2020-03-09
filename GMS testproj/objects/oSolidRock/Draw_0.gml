@@ -1,3 +1,4 @@
+event_inherited();
 switch (round(rockRotation)){
 	case 0:{
 		image_angle = 90;

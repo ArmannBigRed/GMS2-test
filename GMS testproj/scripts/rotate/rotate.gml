@@ -1,1 +1,0 @@
-image_xscale = cos(current_time / 750);

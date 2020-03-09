@@ -1,3 +1,3 @@
 image_index = 1;
-rotate();
+rotateSprite(750);
 draw_self();
