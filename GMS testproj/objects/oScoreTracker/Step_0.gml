@@ -1,0 +1,3 @@
+if(COINS == AVAILABLECOINS){
+	VICTORY = true;
+};

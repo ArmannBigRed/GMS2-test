@@ -1,4 +1,4 @@
 updateWorldDepth();
 if(shadowDraw){
-	draw_sprite_ext(sShadow, 0, x, y+height*0.5, shadowScale, shadowScale, 0, c_white, 0.25)
+	drawSprite(sShadow, 0, x, y+height*percent(50), shadowScale, shadowScale, 0, c_white, percent(25));
 };

@@ -16,7 +16,7 @@ if(gridX != toX || gridY != toY){
 		zSpeed = -200;
 		flipFlop *= -1;
 		rotation = 3*flipFlop;
-		squishSet(0.1 * 0.5);
+		squishSet(percent(10) * percent(50));
 	};
 	//make the movement smooth if key is held down
 	if(gridX == toX && gridY == toY){

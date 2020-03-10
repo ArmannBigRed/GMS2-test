@@ -1,4 +1,5 @@
 instanceCreate(oScoreTracker);
+instanceCreate(oLevelController);
 
 //TODO
 //fix the number of candy / coins to a variable gotten from the amount on each level
