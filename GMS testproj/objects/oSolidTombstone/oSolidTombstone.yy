@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oSolidTombstone",
     "eventList": [
-        
+        {
+            "id": "883a0573-3d53-4871-8df4-bf66e8ffdff9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4a25d06e-d7d0-44a3-b450-a258ac07c3a4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

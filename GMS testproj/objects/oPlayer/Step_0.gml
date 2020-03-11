@@ -1,7 +1,6 @@
 event_inherited()
 
-//TODO make some scripts for this block and move it into oWorldElement since other stuff is gonna need to move later
-#region Movement and Collision 
+#region Movement
 //Slide to the next point if we're not already at it
 if(gridX != toX || gridY != toY){
 	gridX += clamp(toX - gridX, -slide, slide);
@@ -10,7 +9,6 @@ if(gridX != toX || gridY != toY){
 	x = gridX * gridScale;
 	y = gridY * gridScale;
 	//bounce, change zSpeed value for height, squishSet for squishamount
-	//TODO adjust these values to make it feel better, maybe how many times we want to bounce for each tile move
 	//Can also adjust GRAVITY in oInit that affects the fallspeed for z
 	if (z >= 0) {
 		zSpeed = -200;
@@ -24,7 +22,7 @@ if(gridX != toX || gridY != toY){
 	};
 };
 else{
-	//check for inputs / if movement is possible (add collision here)
+	//check for inputs / if movement is possibles
 	
 	rightLeftMove = (keyboard_check(ord("D"))) + (-keyboard_check(ord("A")));
 	upDownMove = (keyboard_check(ord("S"))) + (-keyboard_check(ord("W")));
@@ -34,18 +32,45 @@ else{
 			toX += rightLeftMove;
 			toY += upDownMove;
 		};
-		else if(!place_meeting((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oSolidParent)){
-			if(instance_place((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oDoorParent).doorColor == currentCostume){
-				instance_destroy(instance_place((toX+rightLeftMove) * gridScale, (toY+upDownMove) * gridScale, oDoorParent))
-			};
-		};
 	};
 };
 #endregion
 
+#region Open doors with spacebar
+//check for doors and get the instance ID from the 4 grid spaces around the player
+if(rightGridID(gridX, gridY, gridScale, oDoorParent) != noone){
+	if(rightGridID(gridX, gridY, gridScale, oDoorParent).doorColor == currentCostume && keyboard_check_pressed(vk_space)){
+		instance_destroy(rightGridID(gridX, gridY, gridScale, oDoorParent));
+	}
+};
+
+if(leftGridID(gridX, gridY, gridScale, oDoorParent) != noone){
+	if(leftGridID(gridX, gridY, gridScale, oDoorParent).doorColor == currentCostume && keyboard_check_pressed(vk_space)){
+		instance_destroy(leftGridID(gridX, gridY, gridScale, oDoorParent));
+	}
+};
+
+if(downGridID(gridX, gridY, gridScale, oDoorParent) != noone){
+	if(downGridID(gridX, gridY, gridScale, oDoorParent).doorColor == currentCostume && keyboard_check_pressed(vk_space)){
+		instance_destroy(downGridID(gridX, gridY, gridScale, oDoorParent));
+	}
+};
+
+if(upGridID(gridX, gridY, gridScale, oDoorParent) != noone){
+	if(upGridID(gridX, gridY, gridScale, oDoorParent).doorColor == currentCostume && keyboard_check_pressed(vk_space)){
+		instance_destroy(upGridID(gridX, gridY, gridScale, oDoorParent));
+	}
+};
+#endregion
+//flip the player sprite right or left depending on the movement
 if(rightLeftMove != 0){
 	xScale = sign(rightLeftMove);	
 };
 
 updateZ();
 updateWorldDepth();
+
+
+
+
+

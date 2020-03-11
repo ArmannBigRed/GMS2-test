@@ -25,4 +25,9 @@ drawText(textXDraw, textYDraw, gameTitle, 1, c_softyellow, textRotation);
 fontSet(fntRegular, fa_center, fa_middle);
 var helperTextScale = 0.9+0.1*sin(16*GAME_SECONDS_PASSED)
 
-drawText(guiCenterX(), guiHeight() * percent(75), "Press space to puzzle.", helperTextScale, c_white);
+drawText(guiCenterX(), guiHeight() * percent(75), "Press space to puzzle.", helperTextScale, c_softblue);
+
+fontSet(fntRegularSmall, fa_center, fa_middle);
+drawText(guiCenterX(), guiHeight() * percent(45), "Game controls:", 1, c_softgreen);
+drawText(guiCenterX(), guiHeight() * percent(50), "Use WASD to move", 1, c_softgreen);
+drawText(guiCenterX(), guiHeight() * percent(55), "Press Space bar to interact", 1, c_softgreen);

@@ -1,3 +1,3 @@
-if(COINS == AVAILABLECOINS){
+if(COINS == AVAILABLE_COINS){
 	VICTORY = true;
 };
