@@ -12,16 +12,16 @@ rightLeftMove = 0;
 //time to slide alter second number for faster or slower movement
 slide = SLOMO_SECONDS * 3;
 
-gridScale = 64;
+cGRIDSCALE = 64;
 
 //Where oPlayer is on the grid
-gridX = round(x/gridScale);
-gridY = round(y/gridScale);
+gridX = round(x/cGRIDSCALE);
+gridY = round(y/cGRIDSCALE);
 //moveTo
 toX = gridX;
 toY = gridY;
 //where you are on the grid
-x = gridX * gridScale;
-y = gridY * gridScale;
+x = gridX * cGRIDSCALE;
+y = gridY * cGRIDSCALE;
 
 flipFlop = 1;

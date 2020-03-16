@@ -1,11 +1,11 @@
 /// @arg x
 /// @arg y
-/// @arg gridScale
+/// @arg cGRIDSCALE
 /// @arg obj
 
 var gridX = argument0;
 var gridY = argument1;
-var gridScale = argument2;
+var cGRIDSCALE = argument2;
 var object = argument3;
 
-return instance_place((gridX + 1) * gridScale, gridY * gridScale, object)
+return instance_place((gridX + 1) * cGRIDSCALE, gridY * cGRIDSCALE, object)
