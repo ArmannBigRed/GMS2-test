@@ -29,3 +29,8 @@ if(z >= 0){
 else{
 	rotation = lerp(rotation, 0, percent(5));
 };
+
+//flip the player sprite right or left depending on the movement
+if(rightLeftMove != 0){
+	xScale = sign(rightLeftMove);	
+};SS

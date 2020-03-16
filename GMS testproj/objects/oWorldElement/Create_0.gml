@@ -5,6 +5,7 @@ shadowScale = 1;
 
 z			= 0;
 zSpeed		= 0;
+moveSpeed	= 0;
 rotation	= 0;
 
 

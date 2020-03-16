@@ -442,7 +442,7 @@
             "Key": "6d3bd1c3-1acc-45d9-8171-ec734a251004",
             "Value": {
                 "id": "cec5e31b-e676-4529-9a87-bc9cdfe4ea67",
-                "resourcePath": "scripts\\gridInit\\gridInit.yy",
+                "resourcePath": "scripts\\convXYToGrid\\convXYToGrid.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -547,6 +547,14 @@
             "Value": {
                 "id": "80b6e4b2-e06f-40f0-9a1e-3265c2fb4463",
                 "resourcePath": "scripts\\squishUpdate\\squishUpdate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8a19f6d7-453c-4ecc-978b-20af664b1d04",
+            "Value": {
+                "id": "3af77bd3-fdda-4dc1-9abf-3c337209c88f",
+                "resourcePath": "scripts\\convGridToXY\\convGridToXY.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1069,7 +1077,8 @@
         "a44e934d-78b4-40a2-a4bc-528942edc637",
         "fba1a1c1-9031-49cc-87e9-75c58884a35d",
         "adc3f094-175a-4534-bbf5-d7f499da2bc3",
-        "6d3bd1c3-1acc-45d9-8171-ec734a251004"
+        "6d3bd1c3-1acc-45d9-8171-ec734a251004",
+        "8a19f6d7-453c-4ecc-978b-20af664b1d04"
     ],
     "tutorial": ""
 }

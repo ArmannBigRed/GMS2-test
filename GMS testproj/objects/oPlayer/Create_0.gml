@@ -1,4 +1,6 @@
 event_inherited();
+moveSpeed = 3;
+
 //first costume of the level
 initialCostume = "blue";
 currentCostume = initialCostume;
@@ -10,18 +12,15 @@ rightLeftMove = 0;
 
 
 //time to slide alter second number for faster or slower movement
-slide = SLOMO_SECONDS * 3;
+slide = SLOMO_SECONDS * moveSpeed;
 
-cGRIDSCALE = 64;
-
-//Where oPlayer is on the grid
-gridX = round(x/cGRIDSCALE);
-gridY = round(y/cGRIDSCALE);
+gridX = convXYToGrid(x);
+gridY = convXYToGrid(y);
 //moveTo
 toX = gridX;
 toY = gridY;
 //where you are on the grid
-x = gridX * cGRIDSCALE;
-y = gridY * cGRIDSCALE;
+x = convGridToXY(gridX);
+y = convGridToXY(gridY);
 
 flipFlop = 1;

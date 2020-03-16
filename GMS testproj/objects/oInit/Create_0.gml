@@ -1,12 +1,16 @@
 #region Game specific CONST
-#macro cGRIDSCALE;	cGRIDSCALE = 64:
+#macro c_spacebarpressed keyboard_check_pressed(vk_space)
 #endregion
+
 #region Game specific GLOBALVAR
 globalvar GRAVITY;	GRAVITY = 2500;
+globalvar cGRIDSCALE;	cGRIDSCALE = 64;
 #endregion
+
 #region Init scripts
 timeInit();
 #endregion
+
 #region Color CONST
 #macro rgb make_color_rgb
 
