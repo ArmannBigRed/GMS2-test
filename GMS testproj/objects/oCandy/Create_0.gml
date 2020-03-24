@@ -1,3 +1,3 @@
 event_inherited();
 
-shadowScale = 0.7;
+shadowScale = percent(70);

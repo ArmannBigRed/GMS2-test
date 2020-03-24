@@ -5,22 +5,8 @@ moveSpeed = 3;
 initialCostume = "blue";
 currentCostume = initialCostume;
 
-//movement on the grid
-rightLeftMove = 0;
-rightLeftMove = 0;
-
-
-
-//time to slide alter second number for faster or slower movement
-slide = SLOMO_SECONDS * moveSpeed;
-
-gridX = convXYToGrid(x);
-gridY = convXYToGrid(y);
-//moveTo
-toX = gridX;
-toY = gridY;
-//where you are on the grid
-x = convGridToXY(gridX);
-y = convGridToXY(gridY);
-
-flipFlop = 1;
+//TODO
+// make an animation controller object / scripts, plan out how to handle animations in general rather than per object / animation
+scalePopIn = 0;
+moveUpAnim = 0
+drawAnim = false;

@@ -1,7 +1,6 @@
-/// @arg gridX or gridY
+/// @arg gridXOrgridY
 
 gridXY = argument0;
 
 
-//convert from grid location to pixels
 return gridXY * cGRIDSCALE;

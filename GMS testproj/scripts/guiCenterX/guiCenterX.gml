@@ -1,1 +1,1 @@
-return display_get_gui_width()*0.5;
+return display_get_gui_width()*percent(50);

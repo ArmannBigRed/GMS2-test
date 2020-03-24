@@ -1,4 +1,4 @@
 event_inherited();
 
-shadowScale = 0.8
+shadowScale = percent(80);
 upDown = 0;

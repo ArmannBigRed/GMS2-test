@@ -9,6 +9,7 @@ globalvar cGRIDSCALE;	cGRIDSCALE = 64;
 
 #region Init scripts
 timeInit();
+gridMoveInit();
 #endregion
 
 #region Color CONST

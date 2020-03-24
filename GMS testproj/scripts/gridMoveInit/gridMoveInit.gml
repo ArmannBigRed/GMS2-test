@@ -1,0 +1,4 @@
+globalvar cGRID_MOVE_RIGHT;		cGRID_MOVE_RIGHT = 1;
+globalvar cGRID_MOVE_LEFT;		cGRID_MOVE_LEFT = -1;
+globalvar cGRID_MOVE_DOWN;		cGRID_MOVE_DOWN = 1;
+globalvar cGRID_MOVE_UP;		cGRID_MOVE_UP = -1
