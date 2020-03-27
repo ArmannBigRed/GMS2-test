@@ -1,10 +1,14 @@
 event_inherited()
 
 #region Movement
+//this gets translated into grid movement in oWorldElement
+leftMove		= c_KeyA || c_KeyLeft
+rightMove		= c_KeyD || c_KeyRight
+upMove			= c_KeyW || c_KeyUp
+downMove		= c_KeyS || c_KeyDown
 
-rightLeftMove = (keyboard_check(ord("D"))) + (-keyboard_check(ord("A")));
-upDownMove = (keyboard_check(ord("S"))) + (-keyboard_check(ord("W")));
-
+rightLeftMove	= rightMove + (-leftMove);
+upDownMove		= downMove + (-upMove);
 #endregion
 
 #region Open doors with spacebar
@@ -32,10 +36,5 @@ if(upGridID(gridX, gridY, cGRIDSCALE, oDoorParent) != noone){
 		instance_destroy(upGridID(gridX, gridY, cGRIDSCALE, oDoorParent));
 	}
 };
-#endregion
-
-#region Update scripts
-updateZ();
-updateWorldDepth();
 #endregion
 

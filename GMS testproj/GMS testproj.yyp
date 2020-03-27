@@ -1093,6 +1093,14 @@
                 "resourcePath": "views\\fd7c79d7-74d5-4b9c-98c6-606b62b2f40a.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fe8df2ca-1e34-406c-83bb-06ff8d56125c",
+            "Value": {
+                "id": "05ec5c15-b0a3-45fd-b7d7-910161c39a67",
+                "resourcePath": "scripts\\gravityInit\\gravityInit.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -1133,6 +1141,7 @@
         "a44e934d-78b4-40a2-a4bc-528942edc637",
         "fba1a1c1-9031-49cc-87e9-75c58884a35d",
         "adc3f094-175a-4534-bbf5-d7f499da2bc3",
+        "fe8df2ca-1e34-406c-83bb-06ff8d56125c",
         "6d3bd1c3-1acc-45d9-8171-ec734a251004",
         "8a19f6d7-453c-4ecc-978b-20af664b1d04"
     ],

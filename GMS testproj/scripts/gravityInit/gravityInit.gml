@@ -1,0 +1,2 @@
+globalvar GRAVITY;		GRAVITY = 2500;
+globalvar cGRIDSCALE;	cGRIDSCALE = 64;

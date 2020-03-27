@@ -1,3 +1,10 @@
+//variables to modify on the child obj
+moveSpeed	= 0;
+blinks = false;
+canMove = false;
+canSquish = false;
+canFlip = false;
+
 width		= 64;
 height		= 64;
 shadowDraw	= true;
@@ -5,7 +12,6 @@ shadowScale = 1;
 
 z			= 0;
 zSpeed		= 0;
-moveSpeed	= 0;
 rotation	= 0;
 
 

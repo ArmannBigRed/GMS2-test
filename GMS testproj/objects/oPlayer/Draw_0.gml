@@ -1,7 +1,6 @@
 event_inherited();
-blink();
-squishUpdate();
 
+//TODO find a better way to do this other than a switch statement
 switch (currentCostume){
 	case "blue":{
 		sprite_index = sCostumeBlue;
@@ -23,20 +22,7 @@ switch (currentCostume){
 	}
 };
 
-
 drawSprite(sprite_index, isBlinking(), x, y+z, xScale*squishXScale, squishYScale, rotation);
-
-if(z >= 0){
-	rotation = lerp(rotation, 0, percent(35));	
-}
-else{
-	rotation = lerp(rotation, 0, percent(5));
-};
-
-//flip the player sprite right or left depending on the movement
-if(rightLeftMove != 0){
-	xScale = sign(rightLeftMove);	
-};
 
 //TODO
 //move this whole block into scripts and oWorldElement, and make it more generalized for all animations, create scripts for different effects.
@@ -56,7 +42,7 @@ if(drawAnim){
 		moveUpAnim = 0;
 		drawAnim = false;
 	}
-}
+};
 
 
 
